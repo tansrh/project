@@ -1,0 +1,406 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting, I am Healthbot,  ready to help you out.",
+          "Hi there, I am Healthbot, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "headache",
+        "patterns": [
+          "Throbbing pain in the head",
+          "Head feels heavy",
+          "Constant headache"
+        ],
+        "responses": [
+          "Rest in a quiet, dark room",
+          "Hydrate with plenty of water",
+          "Over-the-counter pain relievers like ibuprofen or acetaminophen"
+        ]
+      },
+      {
+        "tag": "cough",
+        "patterns": [
+          "Dry cough",
+          "Persistent coughing",
+          "Cough with phlegm"
+        ],
+        "responses": [
+          "Stay hydrated with warm fluids",
+          "Use cough syrup as per doctor's prescription",
+          "Avoid exposure to smoke or pollutants"
+        ]
+      }
+      ,
+      {
+        "tag": "sore throat",
+        "patterns": [
+          "Scratchy throat",
+          "Pain when swallowing",
+          "Hoarseness"
+        ],
+        "responses": [
+          "Gargle with warm salt water",
+          "Take lozenges to soothe the throat",
+          "Stay hydrated with warm liquids"
+        ]
+      }
+
+      ,
+      {
+        "tag": "stomach ache",
+        "patterns": [
+          "Abdominal pain",
+          "Bloating",
+          "Nausea"
+        ],
+        "responses": [
+          "Avoid spicy and greasy foods",
+          "Take antacids for relief",
+          "Rest and apply a warm compress to the stomach"
+        ]
+      }
+,
+{
+  "tag": "fatigue",
+  "patterns": [
+    "Feeling tired all the time",
+    "Lack of energy",
+    "Difficulty concentrating"
+  ],
+  "responses": [
+    "Get plenty of rest and sleep",
+    "Engage in light physical activity like walking or yoga",
+    "Ensure a balanced diet with plenty of fruits and vegetables"
+  ]
+}
+,
+{
+  "tag": "rash",
+  "patterns": [
+    "Red and itchy skin",
+    "Raised bumps or patches",
+    "Skin irritation"
+  ],
+  "responses": [
+    "Apply calamine lotion to soothe itching",
+    "Take antihistamines for allergic reactions",
+    "Avoid scratching to prevent infection"
+  ]
+}
+,
+{
+  "tag": "diarrhea",
+  "patterns": [
+    "Frequent loose or watery stools",
+    "Abdominal cramps",
+    "Bloating and gas"
+  ],
+  "responses": [
+    "Stay hydrated with electrolyte-rich fluids",
+    "Follow the BRAT diet (bananas, rice, applesauce, toast)",
+    "Avoid spicy and fatty foods until symptoms improve"
+  ]
+}
+,
+{
+  "tag": "shortness of breath",
+  "patterns": [
+    "Difficulty breathing",
+    "Wheezing",
+    "Tightness in the chest"
+  ],
+  "responses": [
+    "Sit upright and try pursed-lip breathing",
+    "Use a rescue inhaler if prescribed for asthma",
+    "Seek immediate medical attention if severe or sudden onset"
+  ]
+}
+,
+{
+  "tag": "joint pain",
+  "patterns": [
+    "Pain, swelling, and stiffness in joints",
+    "Reduced range of motion",
+    "Warmth or redness around joints"
+  ],
+  "responses": [
+    "Apply ice packs to reduce swelling",
+    "Take over-the-counter pain relievers like ibuprofen",
+    "Do gentle stretching exercises to improve flexibility"
+  ]
+}
+,
+{
+  "tag": "dizziness",
+  "patterns": [
+    "Feeling lightheaded or faint",
+    "Sensation of spinning or vertigo",
+    "Unsteady gait"
+  ],
+  "responses": [
+    "Sit or lie down in a safe place to prevent falls",
+    "Stay hydrated and avoid sudden movements",
+    "Seek medical evaluation if dizziness persists or is severe"
+  ]
+}
+,
+{
+  "tag": "sneezing",
+  "patterns": [
+    "Frequent sneezing",
+    "Runny or stuffy nose",
+    "Itchy or watery eyes"
+  ],
+  "responses": [
+    "Use over-the-counter antihistamines for allergy relief",
+    "Keep windows closed to prevent pollen from entering",
+    "Use a humidifier to moisturize the air and soothe nasal passages"
+  ]
+}
+,
+{
+  "tag": "insomnia",
+  "patterns": [
+    "Difficulty falling asleep",
+    "Waking up frequently during the night",
+    "Feeling tired despite adequate time in bed"
+  ],
+  "responses": [
+    "Establish a regular sleep schedule",
+    "Create a relaxing bedtime routine",
+    "Limit caffeine and screen time before bedtime"
+  ]
+}
+,
+{
+  "tag": "muscle cramps",
+  "patterns": [
+    "Sudden and involuntary muscle contractions",
+    "Pain or tightness in muscles",
+    "Muscle spasms"
+  ],
+  "responses": [
+    "Stretch and massage the affected muscle",
+    "Apply heat or cold packs to relieve pain",
+    "Stay hydrated and maintain electrolyte balance"
+  ]
+}
+,
+{
+  "tag": "burns",
+  "patterns": [
+    "Redness, blistering, or peeling skin",
+    "Pain or tenderness at the burn site",
+    "Swelling and inflammation"
+  ],
+  "responses": [
+    "Cool the burn with running water for 10-20 minutes",
+    "Apply aloe vera or burn cream to soothe the skin",
+    "Cover the burn with a sterile bandage to protect against infection"
+  ]
+}
+,
+{
+  "tag": "anxiety",
+  "patterns": [
+    "Feeling nervous or restless",
+    "Rapid heartbeat",
+    "Sweating or trembling"
+  ],
+  "responses": [
+    "Practice deep breathing or meditation techniques",
+    "Engage in physical activity to reduce stress",
+    "Consider therapy or counseling for long-term management"
+  ]
+}
+,
+{
+  "tag": "depression",
+  "patterns": [
+    "Persistent sadness or emptiness",
+    "Loss of interest or pleasure in activities",
+    "Changes in appetite or weight",
+    "sad",
+    "low in enthusiasm",
+    "anger issues",
+    "depressed"
+  ],
+  "responses": [
+    "Seek professional help from a therapist or psychiatrist",
+    "Stay connected with supportive friends and family members",
+    "Consider medication or therapy as recommended by healthcare professionals"
+  ]
+}
+,
+{
+  "tag": "toothache",
+  "patterns": [
+    "Pain or discomfort in the tooth or surrounding area",
+    "Sensitivity to hot, cold, or sweet foods",
+    "Swelling or inflammation of the gums"
+  ],
+  "responses": [
+    "Rinse with warm salt water to reduce inflammation",
+    "Use over-the-counter pain relievers like ibuprofen",
+    "See a dentist for evaluation and treatment"
+  ]
+}
+,
+{
+  "tag": "fatigue",
+  "patterns": [
+    "Feeling tired all the time",
+    "Lack of energy",
+    "Difficulty concentrating"
+  ],
+  "responses": [
+    "Get plenty of rest and sleep",
+    "Engage in light physical activity like walking or yoga",
+    "Ensure a balanced diet with plenty of fruits and vegetables"
+  ]
+}
+,
+{
+  "tag": "heartburn",
+  "patterns": [
+    "Burning sensation in the chest or throat",
+    "Acidic or sour taste in the mouth",
+    "Regurgitation of food or stomach acid"
+  ],
+  "responses": [
+    "Avoid trigger foods like spicy or fatty foods",
+    "Eat smaller, more frequent meals",
+    "Take over-the-counter antacids or acid reducers"
+  ]
+}
+,
+{
+  "tag": "conjunctivitis",
+  "patterns": [
+    "Redness, itching, or irritation in the eyes",
+    "Watery discharge or crusty eyelids",
+    "Sensitivity to light"
+  ],
+  "responses": [
+    "Apply warm compresses to soothe the eyes",
+    "Use over-the-counter artificial tears to lubricate the eyes",
+    "Avoid touching or rubbing the eyes to prevent spread of infection"
+  ]
+}
+,
+{
+  "tag": "constipation",
+  "patterns": [
+    "Difficulty passing stools",
+    "Infrequent bowel movements",
+    "Abdominal discomfort or bloating"
+  ],
+  "responses": [
+    "Increase fiber intake with fruits, vegetables, and whole grains",
+    "Stay hydrated by drinking plenty of water",
+    "Engage in regular physical activity to stimulate bowel movements"
+  ]
+}
+,
+{
+  "tag": "fracture",
+  "patterns": [
+    "Pain, swelling, or bruising in the affected area",
+    "Difficulty moving or bearing weight on the limb",
+    "Deformity or abnormal positioning of the bone"
+  ],
+  "responses": [
+    "Immobilize the limb with a splint or sling",
+    "Apply ice packs to reduce swelling and pain",
+    "Seek medical attention for proper diagnosis and treatment"
+  ]
+}
+,
+{
+  "tag": "sunburn",
+  "patterns": [
+    "Red, tender, or blistered skin",
+    "Pain or itching",
+    "Peeling or flaking of the skin"
+  ],
+  "responses": [
+    "Apply cool compresses or take cool baths to soothe the skin",
+    "Use moisturizing lotions or aloe vera gel to hydrate the skin",
+    "Avoid further sun exposure and wear protective clothing and sunscreen"
+  ]
+}
+,
+{
+  "tag": "earache",
+  "patterns": [
+    "Pain or discomfort in the ear",
+    "Decreased hearing",
+    "Ear drainage or discharge"
+  ],
+  "responses": [
+    "Apply warm compresses to relieve pain",
+    "Use over-the-counter pain relievers like ibuprofen or acetaminophen",
+    "Avoid inserting objects into the ear and seek medical evaluation if symptoms persist"
+  ]
+}
+,
+{
+  "tag": "sprain",
+  "patterns": [
+    "Pain, swelling, or bruising around a joint",
+    "Limited range of motion",
+    "Instability or weakness in the affected area"
+  ],
+  "responses": [
+    "Rest, ice, compression, and elevation (RICE) therapy",
+    "Use over-the-counter pain relievers like ibuprofen",
+    "Wear a brace or splint for support and protection"
+  ]
+}
+
+
+
+
+      
+    ]
+  }
